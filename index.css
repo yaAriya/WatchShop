@@ -1,0 +1,164 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+ font-family: "League Spartan", sans-serif;
+}
+
+.main-product__container {
+    display: flex;
+    padding-top: 80px;
+    padding-left: 133px;
+    padding-right: 133px;
+    padding-bottom:100px;
+    width: 1600px;
+    height: 750px;
+    background-color: aliceblue;
+}
+
+.main-product__title {
+    margin-bottom: 60px;
+    font-size: 24px;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+.main-product__subtitle {
+    margin-left: 150px;
+    margin-bottom: 50px;
+    font-size: 170px;
+    line-height: 150px;
+    font-weight: 300;
+}
+
+.main-product__description {
+    display: block;
+    margin-bottom: 90px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.main-product_buy-wrapper{ 
+    margin-top: 40px;
+    display: flex;
+
+}
+
+.main-product__buy-button {
+    display: block;
+    text-align: center;
+    width: 200px;
+    height: 60px;
+    color: aliceblue;
+    background-color: rgb(31, 89, 131);
+    border: 4px, solid, rgb(11, 41, 71); 
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 58px;
+    font-weight: 100;
+}
+
+.main-product__price {
+    display: block;
+    text-align: center;
+    width: 140px;
+    height: 60px;
+    color: rgb(31, 89, 131);
+    background-color: rgb(230, 230, 231);
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 64px;
+    font-weight: 250;
+}
+
+.main-product__img {
+  width: 1550px;
+  height: auto;
+}
+
+.spacer {
+  height: 50px;
+  width: auto;
+  color: white;
+}
+
+.product-subtitle {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 60px;
+    height: 3px;
+    width: 800px;
+    line-height: 7px;
+    background-color: aliceblue;
+}
+
+.product-subtitle__popular {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 200;
+
+}
+
+.product-subtitle__models {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 30px;
+  font-weight: 200;
+   
+}
+
+.product__container {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom:100px;
+    width: 800px;
+    height: 900px;
+    background-color: aliceblue;
+}
+
+.product__img {
+    width: 200px;
+    height: 400px;
+    object-fit: cover; 
+}
+
+.product__title {
+    padding-top: 30px;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+.product__description {
+    text-align: left;
+    padding-top: 45px;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+
